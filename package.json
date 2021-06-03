@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "cleanup": "rm -rf ./dist",
-    "build": "babel src --out-dir dist --extensions \".ts\"",
-    "local": "yarn cleanup && yarn build && node dist"
-  },
+  "scripts": {},
   "dependencies": {
     "hls.js": "^1.0.5"
   },
